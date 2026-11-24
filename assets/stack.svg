@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-label="stack.toml">
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#161b22" stroke-width="1"/></pattern>
+<linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#4ade80" stop-opacity="0"/><stop offset=".5" stop-color="#4ade80" stop-opacity=".9"/><stop offset="1" stop-color="#4ade80" stop-opacity="0"/></linearGradient>
+<clipPath id="card"><rect width="900" height="250" rx="12"/></clipPath>
+</defs>
+<style>
+text{font-family:'JetBrains Mono','Fira Code','SF Mono',Consolas,'DejaVu Sans Mono',monospace}
+.d{fill:#8b949e} .t{fill:#e6edf3} .a{fill:#4ade80} .m{fill:#6e7681}
+@keyframes fade{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes scan{from{transform:translateX(-300px)}to{transform:translateX(1200px)}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.in{opacity:0;animation:fade .5s ease-out forwards}
+.up{opacity:0;animation:fadeUp .5s ease-out forwards}
+.grow{transform-box:fill-box;transform-origin:left;animation:grow 1.2s cubic-bezier(.2,.8,.2,1) both}
+.scan{animation:scan 5s linear infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
+
+</style>
+<g clip-path="url(#card)">
+<rect width="900" height="250" fill="#0d1117"/>
+<rect width="900" height="250" fill="url(#grid)"/>
+<rect class="scan" x="0" y="36" width="300" height="1.5" fill="url(#sweep)"/>
+<rect width="900" height="36" fill="#09090b"/>
+<line x1="0" y1="36" x2="900" y2="36" stroke="#27272a"/>
+<circle cx="22" cy="18" r="5.5" fill="#3f3f46"/><circle cx="42" cy="18" r="5.5" fill="#3f3f46"/><circle cx="62" cy="18" r="5.5" fill="#4ade80" opacity=".85"/>
+<text x="450" y="22" text-anchor="middle" font-size="12" class="m">stack.toml</text>
+<text x="32" y="66" font-size="13" class="m"># frontend</text><g class="up" style="animation-delay:0.00s"><rect x="32" y="76" width="82" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="45" cy="89" r="2.5" fill="#4ade80"/><text x="55" y="93" font-size="12" class="t">Next.js</text></g><g class="up" style="animation-delay:0.08s"><rect x="122" y="76" width="67" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="135" cy="89" r="2.5" fill="#4ade80"/><text x="145" y="93" font-size="12" class="t">React</text></g><g class="up" style="animation-delay:0.16s"><rect x="197" y="76" width="104" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="210" cy="89" r="2.5" fill="#4ade80"/><text x="220" y="93" font-size="12" class="t">TypeScript</text></g><g class="up" style="animation-delay:0.24s"><rect x="309" y="76" width="52" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="322" cy="89" r="2.5" fill="#4ade80"/><text x="332" y="93" font-size="12" class="t">MDX</text></g><g class="up" style="animation-delay:0.32s"><rect x="369" y="76" width="104" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="382" cy="89" r="2.5" fill="#4ade80"/><text x="392" y="93" font-size="12" class="t">HTML / CSS</text></g><text x="32" y="124" font-size="13" class="m"># backend &amp; bot</text><g class="up" style="animation-delay:0.30s"><rect x="32" y="134" width="82" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="45" cy="147" r="2.5" fill="#4ade80"/><text x="55" y="151" font-size="12" class="t">Node.js</text></g><g class="up" style="animation-delay:0.38s"><rect x="122" y="134" width="74" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="135" cy="147" r="2.5" fill="#4ade80"/><text x="145" y="151" font-size="12" class="t">Python</text></g><g class="up" style="animation-delay:0.46s"><rect x="204" y="134" width="111" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="217" cy="147" r="2.5" fill="#4ade80"/><text x="227" y="151" font-size="12" class="t">Discord API</text></g><g class="up" style="animation-delay:0.54s"><rect x="323" y="134" width="60" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="336" cy="147" r="2.5" fill="#4ade80"/><text x="346" y="151" font-size="12" class="t">REST</text></g><g class="up" style="animation-delay:0.62s"><rect x="391" y="134" width="60" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="404" cy="147" r="2.5" fill="#4ade80"/><text x="414" y="151" font-size="12" class="t">Bash</text></g><text x="32" y="182" font-size="13" class="m"># cloud &amp; linux</text><g class="up" style="animation-delay:0.60s"><rect x="32" y="192" width="89" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="45" cy="205" r="2.5" fill="#4ade80"/><text x="55" y="209" font-size="12" class="t">Azure VM</text></g><g class="up" style="animation-delay:0.68s"><rect x="129" y="192" width="163" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="142" cy="205" r="2.5" fill="#4ade80"/><text x="152" y="209" font-size="12" class="t">Cloudflare WAF/CDN</text></g><g class="up" style="animation-delay:0.76s"><rect x="300" y="192" width="52" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="313" cy="205" r="2.5" fill="#4ade80"/><text x="323" y="209" font-size="12" class="t">Git</text></g><g class="up" style="animation-delay:0.84s"><rect x="360" y="192" width="104" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="373" cy="205" r="2.5" fill="#4ade80"/><text x="383" y="209" font-size="12" class="t">Arch Linux</text></g><g class="up" style="animation-delay:0.92s"><rect x="472" y="192" width="89" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="485" cy="205" r="2.5" fill="#4ade80"/><text x="495" y="209" font-size="12" class="t">Hyprland</text></g>
+</g>
+<rect x=".5" y=".5" width="899" height="249" rx="12" fill="none" stroke="#30363d"/>
+</svg>

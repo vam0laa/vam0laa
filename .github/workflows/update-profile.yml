@@ -1,0 +1,52 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', '.github/workflows/update-profile.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: true
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Render live stats card
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: node scripts/update-stats.mjs
+
+      - name: Contribution snake (dark)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake-dark.svg?palette=github-dark&color_snake=#4ade80
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/snake-dark.svg
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: refresh profile stats and snake"
+            git pull --rebase origin main
+            git push
+          fi

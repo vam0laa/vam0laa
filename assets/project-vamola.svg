@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" role="img" aria-label="vamola.dev">
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#161b22" stroke-width="1"/></pattern>
+<linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#4ade80" stop-opacity="0"/><stop offset=".5" stop-color="#4ade80" stop-opacity=".9"/><stop offset="1" stop-color="#4ade80" stop-opacity="0"/></linearGradient>
+<clipPath id="card"><rect width="440" height="300" rx="12"/></clipPath>
+</defs>
+<style>
+text{font-family:'JetBrains Mono','Fira Code','SF Mono',Consolas,'DejaVu Sans Mono',monospace}
+.d{fill:#8b949e} .t{fill:#e6edf3} .a{fill:#4ade80} .m{fill:#6e7681}
+@keyframes fade{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes scan{from{transform:translateX(-300px)}to{transform:translateX(740px)}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.in{opacity:0;animation:fade .5s ease-out forwards}
+.up{opacity:0;animation:fadeUp .5s ease-out forwards}
+.grow{transform-box:fill-box;transform-origin:left;animation:grow 1.2s cubic-bezier(.2,.8,.2,1) both}
+.scan{animation:scan 5s linear infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
+
+</style>
+<g clip-path="url(#card)">
+<rect width="440" height="300" fill="#0d1117"/>
+<rect width="440" height="300" fill="url(#grid)"/>
+<rect class="scan" x="0" y="36" width="300" height="1.5" fill="url(#sweep)"/>
+<rect width="440" height="36" fill="#09090b"/>
+<line x1="0" y1="36" x2="440" y2="36" stroke="#27272a"/>
+<circle cx="22" cy="18" r="5.5" fill="#3f3f46"/><circle cx="42" cy="18" r="5.5" fill="#3f3f46"/><circle cx="62" cy="18" r="5.5" fill="#4ade80" opacity=".85"/>
+<text x="220" y="22" text-anchor="middle" font-size="12" class="m">vamola.dev</text>
+
+<text x="28" y="72" font-size="12" class="m">~/projects/vamola.dev</text>
+<text x="28" y="104" font-size="24" font-weight="700" class="t">vamola.dev<tspan class="a">_</tspan></text>
+<text x="28" y="128" font-size="13" class="d">Bilingual (TR/EN) project portfolio and</text><text x="28" y="150" font-size="13" class="d">documentation platform.</text>
+<text x="28" y="188" font-size="12" class="a">⌘ <tspan class="m">App Router · MDX pipeline · i18n routing</tspan></text>
+<g class="up" style="animation-delay:0.30s"><rect x="28" y="206" width="82" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="41" cy="219" r="2.5" fill="#4ade80"/><text x="51" y="223" font-size="12" class="t">Next.js</text></g><g class="up" style="animation-delay:0.40s"><rect x="118" y="206" width="104" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="131" cy="219" r="2.5" fill="#4ade80"/><text x="141" y="223" font-size="12" class="t">TypeScript</text></g><g class="up" style="animation-delay:0.50s"><rect x="230" y="206" width="52" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="243" cy="219" r="2.5" fill="#4ade80"/><text x="253" y="223" font-size="12" class="t">MDX</text></g><g class="up" style="animation-delay:0.60s"><rect x="290" y="206" width="60" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="303" cy="219" r="2.5" fill="#4ade80"/><text x="313" y="223" font-size="12" class="t">i18n</text></g>
+<line x1="28" y1="252" x2="412" y2="252" stroke="#27272a"/>
+<text x="28" y="277" font-size="13" class="t">↗ <tspan class="a">vamola.dev</tspan></text>
+</g>
+<rect x=".5" y=".5" width="439" height="299" rx="12" fill="none" stroke="#30363d"/>
+</svg>
