@@ -7,7 +7,7 @@ const out = (f, s) => writeFileSync(new URL(`../assets/${f}`, import.meta.url), 
   const W = 900, H = 260, cw = 13.2, n1 = 8, n2 = 48;
   const inner = `
 <text x="40" y="98" font-size="22" textLength="${n1 * cw}" lengthAdjust="spacing" class="type1"><tspan class="a">$</tspan><tspan class="t"> whoami</tspan></text>
-<text x="40" y="152" font-size="22" textLength="${n2 * cw}" lengthAdjust="spacing" class="type2"><tspan class="t" font-weight="700">vam0laa</tspan><tspan class="d"> — </tspan><tspan class="t">Full-Stack Web &amp; Discord Bot Developer</tspan></text>
+<text x="40" y="152" font-size="22" textLength="${n2 * cw}" lengthAdjust="spacing" class="type2"><tspan class="t" font-weight="700">vam0laa</tspan><tspan class="d"> — </tspan><tspan class="t">Full-Stack Web &amp; Linux Tools Developer</tspan></text>
 <g class="cur1"><rect x="40" y="80" width="12" height="24" fill="${C.accent}"/></g>
 <g class="cur2"><g class="blink"><rect x="40" y="134" width="12" height="24" fill="${C.accent}"/></g></g>
 <g class="up" style="animation-delay:4.3s"><text x="40" y="214" font-size="15"><tspan class="a">↳ </tspan><tspan class="t">vamola.dev</tspan><tspan class="m">  •  </tspan><tspan class="t">karia.live</tspan><tspan class="m">  •  </tspan><tspan class="t">contact@vamola.dev</tspan></text></g>`;
@@ -30,8 +30,8 @@ const out = (f, s) => writeFileSync(new URL(`../assets/${f}`, import.meta.url), 
   const W = 900, H = 330;
   const rows = [
     ['OS', 'Arch Linux (Hyprland / Wayland)'],
-    ['Focus', 'Web Applications, Docs & Discord Ecosystems'],
-    ['Stack', 'Next.js, TypeScript, React, Node.js, Python'],
+    ['Focus', 'Web Applications, Docs & Linux Tooling'],
+    ['Stack', 'Go, Next.js, TypeScript, React, Node.js, Python'],
     ['Infra', 'Azure VM, Cloudflare WAF/CDN, Git, Bash'],
     ['Contact', 'contact@vamola.dev'],
   ];
@@ -95,7 +95,7 @@ project('project-karia.svg', {
   const W = 900, H = 250;
   const groups = [
     ['frontend', ['Next.js', 'React', 'TypeScript', 'MDX', 'HTML / CSS']],
-    ['backend & bot', ['Node.js', 'Python', 'Discord API', 'REST', 'Bash']],
+    ['backend & tools', ['Go', 'Node.js', 'Python', 'Discord API', 'REST', 'Bash']],
     ['cloud & linux', ['Azure VM', 'Cloudflare WAF/CDN', 'Git', 'Arch Linux', 'Hyprland']],
   ];
   let s = '';

@@ -39,7 +39,7 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',Consolas,'DejaVu Sans Mo
 <text x="450" y="22" text-anchor="middle" font-size="12" class="m">vam0laa@archlinux: ~</text>
 
 <text x="40" y="98" font-size="22" textLength="105.6" lengthAdjust="spacing" class="type1"><tspan class="a">$</tspan><tspan class="t"> whoami</tspan></text>
-<text x="40" y="152" font-size="22" textLength="633.5999999999999" lengthAdjust="spacing" class="type2"><tspan class="t" font-weight="700">vam0laa</tspan><tspan class="d"> — </tspan><tspan class="t">Full-Stack Web &amp; Discord Bot Developer</tspan></text>
+<text x="40" y="152" font-size="22" textLength="633.5999999999999" lengthAdjust="spacing" class="type2"><tspan class="t" font-weight="700">vam0laa</tspan><tspan class="d"> — </tspan><tspan class="t">Full-Stack Web &amp; Linux Tools Developer</tspan></text>
 <g class="cur1"><rect x="40" y="80" width="12" height="24" fill="#4ade80"/></g>
 <g class="cur2"><g class="blink"><rect x="40" y="134" width="12" height="24" fill="#4ade80"/></g></g>
 <g class="up" style="animation-delay:4.3s"><text x="40" y="214" font-size="15"><tspan class="a">↳ </tspan><tspan class="t">vamola.dev</tspan><tspan class="m">  •  </tspan><tspan class="t">karia.live</tspan><tspan class="m">  •  </tspan><tspan class="t">contact@vamola.dev</tspan></text></g>
