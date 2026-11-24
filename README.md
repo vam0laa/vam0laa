@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://vamola.dev"><img src="assets/banner.svg" alt="vam0laa — Full-Stack Web & Discord Bot Developer" width="100%"></a>
+<a href="https://vamola.dev"><img src="assets/banner.svg" alt="vam0laa — Full-Stack Web Developer" width="100%"></a>
 
 </div>
 
