@@ -77,6 +77,24 @@ ${p.svg}
 <text x="28" y="277" font-size="13" class="t">↗ <tspan class="a">${esc(link)}</tspan></text>`;
   out(file, frame(W, H, name, inner, ''));
 }
+project('project-kerna.svg', {
+  path: '~/projects/kerna', name: 'kerna',
+  desc: ['Explains why a Linux system is slow, hot or', 'draining the battery. Read-only, no dependencies.'],
+  arch: 'PSI · /proc · /sys · DRM fdinfo',
+  tags: ['Go', 'Linux', 'TUI'], link: 'vamola.dev/en/projects/kerna',
+});
+project('project-fragma.svg', {
+  path: '~/projects/fragma', name: 'fragma',
+  desc: ['Opens sites your ISP blocks (Discord, Roblox)', 'with one command, touching only those sites.'],
+  arch: 'nftables redirect → TLS record fragmentation',
+  tags: ['Go', 'nftables', 'DPI'], link: 'vamola.dev/en/projects/fragma',
+});
+project('project-vamola-doctor.svg', {
+  path: '~/projects/vamola-doctor', name: 'vamola-doctor',
+  desc: ['One-command, read-only health check for', 'Arch Linux + Hyprland.'],
+  arch: 'network · disk · SMART · journal · packages',
+  tags: ['Go', 'Arch Linux', 'CLI'], link: 'vamola.dev/en/projects/vamola-doctor',
+});
 project('project-vamola.svg', {
   path: '~/projects/vamola.dev', name: 'vamola.dev',
   desc: ['Bilingual (TR/EN) project portfolio and', 'documentation platform.'],
