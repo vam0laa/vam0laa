@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" role="img" aria-label="vamola-doctor">
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" role="img" aria-label="triage">
 <defs>
 <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#161b22" stroke-width="1"/></pattern>
 <linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#4ade80" stop-opacity="0"/><stop offset=".5" stop-color="#4ade80" stop-opacity=".9"/><stop offset="1" stop-color="#4ade80" stop-opacity="0"/></linearGradient>
@@ -26,15 +26,15 @@ text{font-family:'JetBrains Mono','Fira Code','SF Mono',Consolas,'DejaVu Sans Mo
 <rect width="440" height="36" fill="#09090b"/>
 <line x1="0" y1="36" x2="440" y2="36" stroke="#27272a"/>
 <circle cx="22" cy="18" r="5.5" fill="#3f3f46"/><circle cx="42" cy="18" r="5.5" fill="#3f3f46"/><circle cx="62" cy="18" r="5.5" fill="#4ade80" opacity=".85"/>
-<text x="220" y="22" text-anchor="middle" font-size="12" class="m">vamola-doctor</text>
+<text x="220" y="22" text-anchor="middle" font-size="12" class="m">triage</text>
 
-<text x="28" y="72" font-size="12" class="m">~/projects/vamola-doctor</text>
-<text x="28" y="104" font-size="24" font-weight="700" class="t">vamola-doctor<tspan class="a">_</tspan></text>
-<text x="28" y="128" font-size="13" class="d">One-command, read-only health check for</text><text x="28" y="150" font-size="13" class="d">Arch Linux + Hyprland.</text>
+<text x="28" y="72" font-size="12" class="m">~/projects/triage</text>
+<text x="28" y="104" font-size="24" font-weight="700" class="t">triage<tspan class="a">_</tspan></text>
+<text x="28" y="128" font-size="13" class="d">One-command, read-only health check for</text><text x="28" y="150" font-size="13" class="d">Arch Linux + Hyprland. Was vamola-doctor.</text>
 <text x="28" y="188" font-size="12" class="a">⌘ <tspan class="m">network · disk · SMART · journal · packages</tspan></text>
 <g class="up" style="animation-delay:0.30s"><rect x="28" y="206" width="45" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="41" cy="219" r="2.5" fill="#4ade80"/><text x="51" y="223" font-size="12" class="t">Go</text></g><g class="up" style="animation-delay:0.40s"><rect x="81" y="206" width="104" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="94" cy="219" r="2.5" fill="#4ade80"/><text x="104" y="223" font-size="12" class="t">Arch Linux</text></g><g class="up" style="animation-delay:0.50s"><rect x="193" y="206" width="52" height="26" rx="13" fill="#161b22" stroke="#30363d"/><circle cx="206" cy="219" r="2.5" fill="#4ade80"/><text x="216" y="223" font-size="12" class="t">CLI</text></g>
 <line x1="28" y1="252" x2="412" y2="252" stroke="#27272a"/>
-<text x="28" y="277" font-size="13" class="t">↗ <tspan class="a">vamola.dev/en/projects/vamola-doctor</tspan></text>
+<text x="28" y="277" font-size="13" class="t">↗ <tspan class="a">vamola.dev/en/projects/triage</tspan></text>
 </g>
 <rect x=".5" y=".5" width="439" height="299" rx="12" fill="none" stroke="#30363d"/>
 </svg>

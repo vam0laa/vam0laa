@@ -18,7 +18,7 @@
 <td width="50%"><a href="https://vamola.dev/en/projects/fragma"><img src="assets/project-fragma.svg" alt="fragma — opens sites your ISP blocks with one command" width="100%"></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://vamola.dev/en/projects/vamola-doctor"><img src="assets/project-vamola-doctor.svg" alt="vamola-doctor — read-only health check for Arch Linux and Hyprland" width="100%"></a></td>
+<td width="50%"><a href="https://vamola.dev/en/projects/triage"><img src="assets/project-triage.svg" alt="triage — read-only health check for Arch Linux and Hyprland (formerly vamola-doctor)" width="100%"></a></td>
 <td width="50%"><a href="https://vamola.dev"><img src="assets/project-vamola.svg" alt="vamola.dev — bilingual portfolio and docs platform" width="100%"></a></td>
 </tr>
 <tr>

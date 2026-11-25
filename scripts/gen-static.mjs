@@ -89,11 +89,11 @@ project('project-fragma.svg', {
   arch: 'nftables redirect → TLS record fragmentation',
   tags: ['Go', 'nftables', 'DPI'], link: 'vamola.dev/en/projects/fragma',
 });
-project('project-vamola-doctor.svg', {
-  path: '~/projects/vamola-doctor', name: 'vamola-doctor',
-  desc: ['One-command, read-only health check for', 'Arch Linux + Hyprland.'],
+project('project-triage.svg', {
+  path: '~/projects/triage', name: 'triage',
+  desc: ['One-command, read-only health check for', 'Arch Linux + Hyprland. Was vamola-doctor.'],
   arch: 'network · disk · SMART · journal · packages',
-  tags: ['Go', 'Arch Linux', 'CLI'], link: 'vamola.dev/en/projects/vamola-doctor',
+  tags: ['Go', 'Arch Linux', 'CLI'], link: 'vamola.dev/en/projects/triage',
 });
 project('project-vamola.svg', {
   path: '~/projects/vamola.dev', name: 'vamola.dev',
