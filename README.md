@@ -23,7 +23,7 @@
 </tr>
 <tr>
 <td width="50%"><a href="https://karia.live"><img src="assets/project-karia.svg" alt="Karia — multi-purpose Discord bot with web dashboard" width="100%"></a></td>
-<td width="50%"></td>
+<td width="50%"><a href="https://vamola.dev/en/projects/sincefetch"><img src="assets/project-sincefetch.svg" alt="sincefetch — a system fetch that also says what changed since you last looked" width="100%"></a></td>
 </tr>
 </table>
 

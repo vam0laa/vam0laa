@@ -95,6 +95,12 @@ project('project-triage.svg', {
   arch: 'network · disk · SMART · journal · packages',
   tags: ['Go', 'Arch Linux', 'CLI'], link: 'vamola.dev/en/projects/triage',
 });
+project('project-sincefetch.svg', {
+  path: '~/projects/sincefetch', name: 'sincefetch',
+  desc: ['A system fetch that also tells you what', 'changed since you last looked.'],
+  arch: '/proc · /sys · package log · snapshots',
+  tags: ['Go', 'Linux', 'CLI'], link: 'vamola.dev/en/projects/sincefetch',
+});
 project('project-vamola.svg', {
   path: '~/projects/vamola.dev', name: 'vamola.dev',
   desc: ['Bilingual (TR/EN) project portfolio and', 'documentation platform.'],
